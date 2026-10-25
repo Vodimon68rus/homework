@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.header {
+  background: #f2d241;
+  margin: 0 10%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 13200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border-bottom: 2px solid #ea4a0b;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  margin: 15px 5px;
+}
+.header-navi-flex {
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.header-contacts {
+  margin: 15px 5px;
+  padding-bottom: 10px;
+}
